@@ -3,3 +3,18 @@
     padding: 0;
     border: 0;
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navonemenu{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+}
+
