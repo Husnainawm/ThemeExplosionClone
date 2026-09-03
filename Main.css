@@ -73,9 +73,9 @@
 }
 
 .Offer{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 30px;
-    height: 250px;
+    height: 290px;
     width: 300 px;
     display: flex;
     flex-direction: column;
@@ -83,9 +83,9 @@
 
 .newstop{
   display: flex;
-  height: 150px;
+  height: 30px;
   width: 135px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   background-color: #ffde8b;
   justify-content: center;
   border-radius: 5px;
@@ -134,9 +134,9 @@
 }
 
 .Buynow{
-  height: 5rem;
-  width :186px;
-  border: 2px solid black;
+  height: 60px;
+  width :150px;
+  border: 2px solid ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,10 +144,10 @@
   left: 22rem;
   background-color: #f05036;
   color: #fff;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  border-radius: 20px;
-  
+  border-radius: 30px;
+  margin-top:20px;
 }
 
 
