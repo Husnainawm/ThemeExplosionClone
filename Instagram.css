@@ -1,0 +1,40 @@
+.Insta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.Insta h2{
+    font-size: 24px;
+    font-family: Poppins, sans-serif;
+    padding: 10px;
+}
+
+.Insta p {
+    font-size: 16px;
+    color: #64656a;
+    letter-spacing: 2px;
+
+}
+
+.instaimgs{
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+}
+.instaimgs div{
+    overflow: hidden;  
+    width: 270px;
+    height: 270px;
+}
+
+.instaimgs div img{
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.instaimgs div img:hover{
+    transform: scale(1.15);
+}
