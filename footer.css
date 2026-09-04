@@ -1,0 +1,60 @@
+.footerone{
+     background-color: #f7f7f9;
+     padding: 40px 0px;
+}
+
+
+.foote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    position: relative;
+    right: 30px;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.foot h3{
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.foot P:hover{
+    color: #f05036;
+}
+
+.footersec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    padding: 10px;
+    background-color: #f7f7f9;
+}
+.footersec p a{
+    text-decoration: none;
+    color: #f05036;
+}
+.footersec p{
+    font: 12px;
+    color: #767676;
+}
+
+.fa-brands {
+  font-size: 30px;
+  color: #333;
+  margin-right: 10px;
+  position: relative;
+  left: 70px;
+}
+
+
+
