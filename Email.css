@@ -38,10 +38,46 @@
     font-weight: 500;
 }
 
+.trust{
+    width: 90%;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 10%,
+    black 90%,
+    transparent 100%
+  );
+}
+
 .partner{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 0px;
-    gap: 68px;
+    padding: 50px 120px;
+    gap: 68px;   
+    width: max-content;
+    will-change: transform;
+    animation: spin 10s linear infinite;
+}
+
+.partner img{
+    flex: 0 0 auto;
+    position: relative;
+    flex-shrink: 0;
+
+    
+}
+
+@keyframes spin {
+    from {transform: translateX(0);}
+    to {transform: translateX(-50%);}
+    
 }
