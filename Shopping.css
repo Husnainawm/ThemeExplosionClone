@@ -14,10 +14,6 @@
     transition: transform 0.3s ease;
 }
 
-.Girlshir:hover {
-  transform: scale(1.1);
-}
-
 .boysuit{
     position: relative;
     bottom: 700px;
@@ -40,6 +36,31 @@
   position:relative;
   left: 30rem;
   top:10rem;
+}
+
+@media (max-width: 768px) {
+  .Shopping {
+    flex-direction: column;
+    align-items: center;
+  }
+  .Girlshir{
+    position: static;
+    width: 80%;
+    margin: 10px 0;
+  }
+
+  .boysuit{
+    opacity: 0;
+  }
+  .girlshirts {
+    position: static;
+    width: 90%;
+    text-align: center;
+  }
+}
+
+.Girlshir:hover {
+  transform: scale(1.1);
 }
 
 
@@ -147,3 +168,15 @@
   position: relative;
   right: 480px;
 }   
+
+@media (max-width: 768px) {
+  .backimg {
+    height: auto;
+    padding: 30px 15px;
+  }
+  .imgpara, .iconcont, .authername, .desiner, .quote-icon {
+    position: static;
+    text-align: center;
+    width: 90%;
+  }
+}

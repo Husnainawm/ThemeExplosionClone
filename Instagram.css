@@ -38,3 +38,20 @@
 .instaimgs div img:hover{
     transform: scale(1.15);
 }
+
+@media (max-width: 768px) {
+  .Insta {
+    margin: 20px 10px;
+  }
+  .instaimgs {
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .instaimgs div {
+  width: 100%;   /* poori width - sirf 1 image per row, bari dikhegi */
+  height: auto;
+  aspect-ratio: 1 / 1;
+}
+}

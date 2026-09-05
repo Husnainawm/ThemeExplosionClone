@@ -68,3 +68,13 @@
     justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .products {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .produc {
+    width: 45%;
+    margin-bottom: 15px;
+  }
+}

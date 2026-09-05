@@ -12,7 +12,7 @@
 
 .Email form input{
     height: 50px;
-    width: 450px;
+    width: auto;
     padding: 1px 2px 1px 30px ;
     border-radius: 5px;
 }
@@ -62,7 +62,7 @@
     justify-content: center;
     align-items: center;
     padding: 50px 120px;
-    gap: 68px;   
+    gap: 6%;   
     width: max-content;
     will-change: transform;
     animation: spin 10s linear infinite;
@@ -77,4 +77,25 @@
     from {transform: translateX(0);}
     to {transform: translateX(-50%);}
     
+}
+
+
+@media (max-width: 768px) {
+  .Email {
+    height: auto;
+    padding: 30px 15px;
+  }
+  .Email form input {
+    width: 80%;
+    max-width: 300px;
+  }
+  .partner {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 10px;
+  }
+  .partner img {
+    width: 80px;
+    height: auto;
+  }
 }

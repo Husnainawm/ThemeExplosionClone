@@ -94,3 +94,16 @@ li:hover{
     color: #f05036;
 }
 
+@media (max-width: 768px) {
+  .navone, .navtwo {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+  .navtwomenu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+    gap: 15px;
+  }
+}

@@ -4,6 +4,7 @@
   align-items: center;
   background: linear-gradient(to bottom, rgb(255, 255, 255), #f5f6f7);
   height: 750px;
+  width: 100%;
 }
 
 .hero-image {
@@ -26,6 +27,8 @@
   right: 16rem;
   bottom:5rem;
 }
+
+
 
 .hero-content h1{
   font-family: 'Jost', sans-serif;
@@ -76,10 +79,11 @@
     padding-top: 100px;
     padding-bottom: 30px;
     height: 290px;
-    width: 300 px;
+    width: 300px;
     display: flex;
     flex-direction: column;
 }
+
 
 .newstop{
   display: flex;
@@ -152,3 +156,36 @@
 
 
 
+@media (max-width: 768px){
+  .hero{
+    flex-direction: column;
+    height: auto;
+  }
+    .hero-image img {
+    opacity:0;
+  }
+  .hero-content {
+    position: relative;
+    align-self: center;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+}
+
+@media (max-width: 768px) {
+  .Offer {
+    width: 100%;
+    height: auto;
+    padding: 40px 15px 20px;
+    align-items: center;
+  }
+  .newstop, .Dealday, .Offertime, .Buynow {
+    position: static;   /* cancel the left: 22rem */
+    left: 0;
+  }
+  .Dealday {
+    font-size: 32px;    /* was 50px - too big for phone */
+  }
+}
