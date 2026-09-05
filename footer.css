@@ -57,4 +57,20 @@
 }
 
 
-
+@media (max-width: 768px) {
+  .foote {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    right: 0;         /* 30px offset cancel */
+    text-align: center;
+  }
+  .footersec {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .fa-brands {
+    left: 0;          /* 70px offset cancel */
+  }
+}
