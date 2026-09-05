@@ -161,9 +161,11 @@
     flex-direction: column;
     height: auto;
   }
-    .hero-image img {
-    opacity:0;
-  }
+.hero-image img {
+  position: static;
+  width: 60%;
+  opacity: 1;
+}
 .hero-content {
   position: static;   /* relative se static kiya */
   width: 90%;
