@@ -3,10 +3,6 @@
     padding: 0;
     border: 0;
 }
- body{
-    overflow-x: hidden;
-
- }
 
 .navone{
     display:flex ;
@@ -105,5 +101,24 @@ li:hover{
     justify-content: center;
     margin-right: 0;
     gap: 15px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navone, .navtwo {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    align-items: center;   /* add karo */
+  }
+  .navtwomenu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 0;
+    gap: 15px;
+  }
+  .navtwoicons ul {
+    right: 0;    /* 55px offset cancel */
   }
 }
