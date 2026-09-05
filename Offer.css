@@ -80,6 +80,7 @@
   .dot{
     position: relative;
     right: 24%;
+    opacity: 0;
   }
   
 }

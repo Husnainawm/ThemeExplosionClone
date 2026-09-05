@@ -119,7 +119,10 @@
   .girldot{
     position: relative;
     right: 38%;
+    opacity: 0;
   }
+
+}
 
 .backgroundimg{
     margin-top: 40px;
