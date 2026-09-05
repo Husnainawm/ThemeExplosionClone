@@ -76,10 +76,9 @@
 }
 
 .Offer{
-    padding-top: 100px;
-    padding-bottom: 30px;
-    height: 290px;
-    width: 300px;
+  padding-top: 5%;
+    height: auto;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -87,23 +86,22 @@
 
 .newstop{
   display: flex;
-  height: 30px;
-  width: 135px;
+  height: 26px;
+  width: 23%;
   font-size: 1.2rem;
   background-color: #ffde8b;
   justify-content: center;
   border-radius: 5px;
   align-items: center;
-  position: relative;
-  left: 22rem;
+  align-self: center;
   margin:0px 0px 10px;
 }
 
 .Dealday{
   color: #0f0f0f;
   font-size: 50px;
-  position:relative;
-  left: 22rem;
+  position:static;
+  align-self: center;
   font-weight: 300;
   font-family: poppins, sans-serif;
 }
@@ -112,11 +110,9 @@
 .Offertime{
   display: flex;
   gap: 20px;
-  align-items: center;
-  position:relative;
-  left: 22rem;
-  height: 100px;
-  width: 200px;
+  justify-content: center;
+  height: auto;
+  width: 100%;
 }
 
 .Time{
@@ -125,7 +121,7 @@
   width: 70px;
   color: #f05036;
   display: flex;
-  gap: 10px;
+  gap: 1px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -144,8 +140,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position:relative;
-  left: 22rem;
+  align-self: center;
   background-color: #f05036;
   color: #fff;
   font-size: 20px;
@@ -161,6 +156,11 @@
     flex-direction: column;
     height: auto;
   }
+
+ .hero-image{
+  align-self: center;
+  align-items: center;
+ }
 .hero-image img {
   position: static;
   width: 60%;
@@ -172,20 +172,4 @@
   text-align: center;
   margin: 0 auto;
 }
-}
-
-@media (max-width: 768px) {
-  .Offer {
-    width: 100%;
-    height: auto;
-    padding: 40px 15px 20px;
-    align-items: center;
-  }
-  .newstop, .Dealday, .Offertime, .Buynow {
-    position: static;   /* cancel the left: 22rem */
-    left: 0;
-  }
-  .Dealday {
-    font-size: 32px;    /* was 50px - too big for phone */
-  }
 }

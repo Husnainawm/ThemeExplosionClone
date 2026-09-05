@@ -12,14 +12,14 @@
 
 .Email form input{
     height: 50px;
-    width: auto;
-    padding: 1px 2px 1px 30px ;
+    width: 55%;
+    padding: 1px 2px 1px 10% ;
     border-radius: 5px;
 }
 
 .Email form button {
      height: 50px;
-     width: 120px;
+     width: 30%;
      color: #fff;
      font: 16px;
      font-family: "Open Sans", sans-serif;
@@ -84,10 +84,6 @@
   .Email {
     height: auto;
     padding: 30px 15px;
-  }
-  .Email form input {
-    width: 80%;
-    max-width: 300px;
   }
   .partner {
     flex-wrap: wrap;
