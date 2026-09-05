@@ -164,14 +164,12 @@
     .hero-image img {
     opacity:0;
   }
-  .hero-content {
-    position: relative;
-    align-self: center;
-    width: 90%;
-    text-align: center;
-    margin: 0 auto;
-
-  }
+.hero-content {
+  position: static;   /* relative se static kiya */
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
 }
 
 @media (max-width: 768px) {
